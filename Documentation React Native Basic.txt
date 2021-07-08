@@ -1,0 +1,25 @@
+Documentation React Native Basic
+1. Pertama pindahkan file App.js ke dalam satu file khusus
+2. Jika telah dipindahkan ke dalam satu file khusus, maka ubah alamat du index.js
+   pastikan:
+   [] import file ditambahkan ke dalam AppRegistery di index.js
+3. Untuk pembuatan file disarankan menggunakan rnfes agar mudah untuk styling dan export file
+4. Pasikan import widget dan file assets untuk dapat berfungsi. Contoh dapat dilihat pada file.js
+
+Note: Untuk lebih jelas mengenai layout dan flexbox bisa dilihat
+https://reactnative.dev/docs/flexbox
+
+5. Berikutnya adalah cara menggunakan state and props, untuk menggunakan state dan props terlebih
+   dahulu membuat constructor dan menambahkan perintah this.state menggunakan perintah [rnconst]
+   di luar perintah render(). untuk mengubah state terlebih dahulu membuat methode dan tambahkan 
+   perintah this.setState. untuk mempersingkat dapat menggunakan fungsi const
+6. Untuk menggunakan props terlebih dahulu membuat file, setelah file telah dibuat selanjutnya buat
+   sebuah button (touchableOpacity) dan tambahkan onPress agar dapat menggunakan metode yang dibuat
+   yakni this.metode()
+
+Note: Pastikan file untuk props telah di import
+
+7. Berikutnya adalah cara membuat form, pertama buatlah terlebih dahulu construcktor dan buatlah
+   state untuk pengisian form. kedua buatlah tampilan, untuk sekuritas pada tampilan password
+   dapat menggunakan perintah [secureTextEntry]. Jika tampilan telah dibuat maka selanjutnya membuat
+   metode untuk menerapkan fungsi logika
